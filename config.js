@@ -6,26 +6,26 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
-global.email = 'shashikachirath1@gmail.com'
-global.github = 'https://github.com/mrhansamala/-Queen-Nethu-MD-Bot-'
+global.email = 'anappp33333@gmail.com'
+global.github = 'https://github.com/Sofia8Bot/-Queen-Nethu-MD-Bot-'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94781708673'
+global.sudo = process.env.SUDO || '201158862316'
 global.devs = '94781708673';
-global.website = 'https://github.com/mrhansamala/-Queen-Nethu-MD-Bot-' //wa.me/+91000000000000
+global.website = 'https://github.com/mrhansamala/-Queen-Nethu-MD-Bot-' //wa.me/+201159250900
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/d229929fd0e975d64010c.jpg'
 module.exports = {
   botname: process.env.BOT_NAME || 'Queen Nethu',
-  ownername:process.env.OWNER_NAME || 'MR.Hansamala',
+  ownername:process.env.OWNER_NAME || 'MR.ITOSHI',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
-  auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname: process.env.PACK_INFO.split(";")[1] || 'Name',
+  auto_read_status : process.env.AUTO_READ_STATUS || 'true',
+  packname: process.env.PACK_INFO.split(";")[1] || 'ITOSHI-RIN',
   autoreaction: process.env.AUTO_REACTION || 'off',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
-  alwaysonline: process.env.ALWAYS_ONLINE || 'false',
+  alwaysonline: process.env.ALWAYS_ONLINE || 'true',
   antifake : process.env.FAKE_COUNTRY_CODE || '',
-  readmessage: process.env.READ_MESSAGE || false,
+  readmessage: process.env.READ_MESSAGE || true,
   HANDLERS: process.env.PREFIX || ['.'],
   warncount : process.env.WARN_COUNT || 3,
   disablepm: process.env.DISABLE_PM || "flase",
